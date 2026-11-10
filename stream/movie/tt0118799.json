@@ -1,0 +1,37 @@
+{
+ "streams": [
+  {
+   "name": "T1 In-app",
+   "title": "T1 \u00b7 Direct MP4 (should play inside Nuvio)",
+   "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+   "behaviorHints": {
+    "bingeGroup": "snaija-test"
+   }
+  },
+  {
+   "name": "T2 Tubi",
+   "title": "T2 \u00b7 externalUrl \u2192 Tubi title page\nExpect: Tubi app or browser opens 'Buddy Goes to Nollywood'",
+   "externalUrl": "https://tubitv.com/en-gb/movies/100014072/buddy-goes-to-nollywood"
+  },
+  {
+   "name": "T3 Kava",
+   "title": "T3 \u00b7 externalUrl \u2192 kava.tv home\nExpect: browser or Kava app opens",
+   "externalUrl": "https://kava.tv"
+  },
+  {
+   "name": "T4 Netflix",
+   "title": "T4 \u00b7 externalUrl \u2192 netflix.com/browse\nExpect: Netflix app opens (or browser)",
+   "externalUrl": "https://www.netflix.com/browse"
+  },
+  {
+   "name": "T5 Plex",
+   "title": "T5 \u00b7 externalUrl \u2192 watch.plex.tv title page\nExpect: Plex app or browser",
+   "externalUrl": "https://watch.plex.tv/movie/nollywood-babylon"
+  },
+  {
+   "name": "T6 Scheme",
+   "title": "T6 \u00b7 externalUrl with app scheme (tubitv://)\nDiagnostic: does Nuvio hand non-https schemes to apps?",
+   "externalUrl": "tubitv://"
+  }
+ ]
+}

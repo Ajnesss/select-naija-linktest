@@ -5,7 +5,7 @@ Select Naija is built:
 
 1. Do `externalUrl` streams open the right app or browser from Nuvio TV?
 2. Do they survive AIOStreams (your "Select" config)?
-3. Does a catalogue item with our own ID (`snaija:linktest`, no TMDB/IMDb entry) open and resolve streams?
+3. Does a catalogue item with our own ID (`snaija-linktest`, no TMDB/IMDb entry) open and resolve streams?
 
 ## Host it (GitHub Pages, ~3 minutes)
 
@@ -25,7 +25,7 @@ Select Naija is built:
 | T5 | `externalUrl` | Plex title page | Plex app or browser opens |
 | T6 | `externalUrl` | `tubitv://` app scheme | Diagnostic only: note what happens |
 
-Streams are served for two IDs: `snaija:linktest` (custom catalogue row "Select Naija Link Test")
+Streams are served for two IDs: `snaija-linktest` (custom catalogue row "Select Naija Link Test")
 and `tt0118799` (a normal TMDB/IMDb film, *Life Is Beautiful*, to test the Xperience path).
 
 ## Test matrix (record in the Fire TV results table in the spec doc)

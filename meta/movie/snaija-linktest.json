@@ -1,0 +1,13 @@
+{
+ "meta": {
+  "id": "snaija-linktest",
+  "type": "movie",
+  "name": "Select Naija Link Test",
+  "poster": "https://placehold.co/300x450/png?text=Select+Naija+Test",
+  "description": "Test item with a custom (non-TMDB) ID. If you can open this page in Nuvio, custom-ID catalogue entries work.",
+  "releaseInfo": "2026",
+  "genres": [
+   "Test"
+  ]
+ }
+}
