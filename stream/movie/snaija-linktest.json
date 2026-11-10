@@ -1,9 +1,25 @@
 {
  "streams": [
   {
-   "name": "T1 In-app",
-   "title": "T1 \u00b7 Direct MP4 (should play inside Nuvio)",
+   "name": "T1a In-app",
+   "title": "T1a \u00b7 Direct MP4, Google sample (should play inside Nuvio)",
    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+   "behaviorHints": {
+    "bingeGroup": "snaija-test"
+   }
+  },
+  {
+   "name": "T1b In-app",
+   "title": "T1b \u00b7 Direct MP4, test-videos.co.uk (10 s clip)",
+   "url": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4",
+   "behaviorHints": {
+    "bingeGroup": "snaija-test"
+   }
+  },
+  {
+   "name": "T1c In-app",
+   "title": "T1c \u00b7 Direct MP4, Internet Archive public-domain film",
+   "url": "https://archive.org/download/night_of_the_living_dead/night_of_the_living_dead_512kb.mp4",
    "behaviorHints": {
     "bingeGroup": "snaija-test"
    }

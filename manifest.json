@@ -1,6 +1,6 @@
 {
  "id": "community.selectnaija.linktest",
- "version": "0.0.2",
+ "version": "0.0.3",
  "name": "Select Naija Link Test",
  "description": "Diagnostic addon: tests external links, custom IDs and in-app playback in Nuvio, Stremio and AIOStreams. Not for viewing.",
  "resources": [
